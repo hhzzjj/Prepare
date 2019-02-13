@@ -7,7 +7,7 @@ void main()
 {
 	int a[20], n;
 	cin>>n;
-	for (int i = 1; i <= n; i++)    //注意，这里数组从a[1]开始存储的
+	for (int i = 1; i <= n; i++)    //娉ㄦ剰锛岃繖閲屾暟缁勪粠a[1]寮�濮嬪瓨鍌ㄧ殑
 	{
 		cin>>a[i];
 	}
@@ -16,6 +16,4 @@ void main()
 
 	for (int i = 1; i <= n; i++)
 		cout<<a[i];
-
-
 }
