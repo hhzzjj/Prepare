@@ -34,7 +34,7 @@ public:
 };
 
 
-//看了他人的思路后，修改的（运用队列，每得出一个数据，就push该节点的左右孩子，然后再pop该节点）
+//看了他人的思路后，修改的（运用队列，每得出一个数据，就在队列push该节点的左右孩子，然后再pop该节点）
 class Solution {
 public:
     vector<int> PrintFromTopToBottom(TreeNode* root)
